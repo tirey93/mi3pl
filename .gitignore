@@ -1,2 +1,36 @@
 skrypty/en/GameToPolish.exe
 skrypty/pl/GameToPolish.exe
+
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/po2tomi_converter/.vs
+/po2tomi_converter/.vs/po2tomi_converter/v17/.suo
+
+/omega_t/1/omegat/project_stats.txt
+/omega_t/1/omegat/project_save.tmx.*.bak
+/omega_t/1/omegat/last_entry.properties
+
+/omega_t/2/omegat/project_stats.txt
+/omega_t/2/omegat/project_save.tmx.*.bak
+/omega_t/2/omegat/last_entry.properties
+
+/omega_t/3/omegat/project_stats.txt
+/omega_t/3/omegat/project_save.tmx.*.bak
+/omega_t/3/omegat/last_entry.properties
+
+/omega_t/4/omegat/project_stats.txt
+/omega_t/4/omegat/project_save.tmx.*.bak
+/omega_t/4/omegat/last_entry.properties
+
+/omega_t/5/omegat/project_stats.txt
+/omega_t/5/omegat/project_save.tmx.*.bak
+/omega_t/5/omegat/last_entry.properties
+
+/po2tomi_converter/bin
+/po2tomi_converter/obj
+/po2tomi_converter/bin/Debug/netcoreapp3.1/config.json
+/skrypty/po2tomi_converter.exe - Shortcut.lnk
+/po2tomi_converter/po2tomi_converter/bin/Debug/net8.0
+/po2tomi_converter/po2tomi_converter/obj
