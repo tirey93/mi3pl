@@ -34,3 +34,5 @@ skrypty/pl/GameToPolish.exe
 /skrypty/po2tomi_converter.exe - Shortcut.lnk
 /po2tomi_converter/po2tomi_converter/bin/Debug/net8.0
 /po2tomi_converter/po2tomi_converter/obj
+/po2tomi_converter/po2tomi_converter/bin/Debug/appsettings.json
+/po2tomi_converter/po2tomi_converter/bin/Debug.zip
