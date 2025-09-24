@@ -1,0 +1,1 @@
+katalog zawiera oryginalne i polskie czcionki do gry Curse of Monkey Island. Czcionki polskie należy wgrać do katalogu gry wraz z plikiem spolszczenia(.tab) aby w grze pojawiły się ogonki nad polskimi znakami diakrytycznymi.
