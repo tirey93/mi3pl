@@ -1,6 +1,6 @@
-Repozytorium zawiera wszystkie pliki związane z tłumaczeniem gry Curse of Monkey Island na język polski.
-W katalogu czcionki znajdują się czcionki polskie i angielskie.
-W katalogu skrypty znajdują się skrypty z tłumaczeniami wszystkich tekstów w grze oraz oryginalne, angielskie pliki.
+Repozytorium zawiera wszystkie pliki związane z tłumaczeniem gry Curse of Monkey Island na język polski. <br>
+W katalogu czcionki znajdują się czcionki polskie i angielskie. <br>
+W katalogu skrypty znajdują się skrypty z tłumaczeniami wszystkich tekstów w grze oraz oryginalne, angielskie pliki. <br>
 
 Aby zainstalować spolszczenie należy:
 1. W katalogu gry odnaleźć folder w którym znajduje się plik LANGUAGE.TAB
