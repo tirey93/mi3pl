@@ -1,11 +1,10 @@
-Program ma za zadanie dokonać konwersji pliku .po, obsługiwanego przez OmegaT, do odszyfrowanych plików .txt niezbędnych do wgrania przetłumaczonego tekstu do gry. Program bierze pod uwagę obie znane wersje spolszczenia: Steam i Gog. Różnią się one od siebie numeracją linii stąd wymagane jest utworzenie dwóch niezależnych plików .txt.
-Link do releasu: https://github.com/tirey93/mi5pl/releases/tag/po2tomi_converter
-Pliki .txt należy zaszyfrować do formatu .langdb za pomocą narzędzia TTGTools, a następnie spakować do archiwum ttarch za pomocą narzędzia ttarchext.
+Program ma za zadanie dokonać konwersji pliku .po, obsługiwanego przez OmegaT, do odszyfrowanych plików .txt niezbędnych do wgrania przetłumaczonego tekstu do gry. 
+Link do releasu: https://github.com/tirey93/mi3pl/releases/tag/po2_tab_converter
 
 Konfiguracja programu
 Plik konfiguracyjny appsettings.json zawiera w sobie elementy niezbędne do poprawnego działania programu. Poniżej opis elementów:
 
-Mode - Dostępne opcje: FromPo, ToPo, Sort. Domyślnie FromPo. W przypadku normalnego użytkowania programu nie należy tej flagi zmieniać. Jeśli z jakiegoś powodu niezbędne będzie działanie programu w sposób odwrotny(tj. z odszyfrowanych plików gry wygenerować plik .po) to wtedy należy tę wartość ustawić na ToPo. Jest jeszcze opcja Sort która sortuje podane pliki .txt po numerze linii.
-PoFileLocation - Lokalizacja pliku .po utworzonego w OmegaT z katalogu target. Najlepiej ustawić sobie dokładną ścieżkę do projektu OmegaT/target/tomi.po a program będzie czytał dane z pliku .po od razu po zapisaniu w OmegaT.
-SteamEngFileLocation i GogEngFileLocation - Lokalizacja odszyfrowanego pliku angielskiego w wersji Steam lub Gog. Znajduje się on w repozytorium w katalogu scripts/steam/X/english.txt lub scripts/gog/X/english.txt. Najwygodniej jest sobie ustawić ścieżkę do tego miejsca i zapomnieć o sprawie. W przypadku trybu FromPo ścieżki te nie są wymagane.
-SteamPlFileLocation i GogPlFileLocation - Lokalizacja odszyfrowanego pliku polskiego. Po uruchomieniu programu w celu wgrania tłumaczenia z pliku .po do gry należy ten plik zaszyfrować do formatu .langdb za pomocą narzędzia TTGTools, a następnie spakować do archiwum ttarch za pomocą narzędzia ttarchext. Znajduje się on w repozytorium w katalogu scripts/steam/X/polish.txt lub scripts/gog/X/polish.txt. Najwygodniej jest sobie ustawić ścieżkę do tego miejsca i zapomnieć o sprawie. 
+Mode - Dostępne opcje: FromPo, ToPo Domyślnie FromPo. W przypadku normalnego użytkowania programu nie należy tej flagi zmieniać. Jeśli z jakiegoś powodu niezbędne będzie działanie programu w sposób odwrotny(tj. z odszyfrowanych plików gry wygenerować plik .po) to wtedy należy tę wartość ustawić na ToPo.
+PoFileLocation - Lokalizacja pliku .po utworzonego w OmegaT z katalogu target. Najlepiej ustawić sobie dokładną ścieżkę do projektu OmegaT/target/mi3pl.po a program będzie czytał dane z pliku .po od razu po zapisaniu w OmegaT.
+EngFileLocation - Lokalizacja pliku angielskiego. Znajduje się on w repozytorium w katalogu skrypty/steam/en/LANGUAGE.TAB.TXT. Najwygodniej jest sobie ustawić ścieżkę do tego miejsca i zapomnieć o sprawie. W przypadku trybu FromPo ścieżki te nie są wymagane.
+PlFileLocation - Lokalizacja odszyfrowanego pliku polskiego. Znajduje się on w repozytorium w katalogu skrypty/steam/pl/LANGUAGE.TAB.TXT. Najwygodniej jest sobie ustawić ścieżkę do tego miejsca i zapomnieć o sprawie. 
