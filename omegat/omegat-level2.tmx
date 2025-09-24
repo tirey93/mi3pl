@@ -1208,7 +1208,7 @@
       <tuv xml:lang="en-US">
         <seg>...God of the Volcano who resides in Mount Acidophilus...</seg>
       </tuv>
-      <tuv xml:lang="pl">
+      <tuv xml:lang="pl" changeid="dapyt" changedate="20250924T115009Z">
         <seg>Boże wulkanu, któryś jest we wnętrzu góry Acydofilus,</seg>
       </tuv>
     </tu>
@@ -33592,7 +33592,7 @@
       <tuv xml:lang="en-US">
         <seg>It's an old, short, frayed rope.</seg>
       </tuv>
-      <tuv xml:lang="pl">
+      <tuv xml:lang="pl" changeid="dapyt" changedate="20250924T114953Z">
         <seg>Stara, krótka, postrzępiona lina.</seg>
       </tuv>
     </tu>
