@@ -13,7 +13,6 @@ namespace po2tomi_converter.Commands
     {
         private readonly MainSettings _settings;
         private readonly Dictionary<int, Line> _dictEngSteam;
-        private readonly int _maxLineNumberSteam;
         private readonly List<Line> _linesEng;
         private readonly Dictionary<string, Line> _dictPl;
 
@@ -36,7 +35,6 @@ namespace po2tomi_converter.Commands
                 return;
             }
 
-            _maxLineNumberSteam = _dictEngSteam.Keys.Max();
             _linesEng = [.. LineUtils.LoadLines(_settings.EngFileLocation)];
             _dictPl = LineUtils.LoadLines(_settings.PlFileLocation)
                 .ToDictionary(x => x.Markup, y => y);

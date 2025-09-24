@@ -12,7 +12,6 @@ var serviceProvider = new ServiceCollection()
     .Configure<MainSettings>(configuration.GetSection(nameof(MainSettings)))
     .AddTransient<ToPoCommand>()
     .AddTransient<FromPoCommand>()
-    .AddTransient<SortCommand>()
     .BuildServiceProvider();
 
 var options = serviceProvider.GetService<IOptions<MainSettings>>();
