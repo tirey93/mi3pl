@@ -8,25 +8,9 @@ skrypty/pl/GameToPolish.exe
 /po2tomi_converter/.vs
 /po2tomi_converter/.vs/po2tomi_converter/v17/.suo
 
-/omega_t/1/omegat/project_stats.txt
-/omega_t/1/omegat/project_save.tmx.*.bak
-/omega_t/1/omegat/last_entry.properties
-
-/omega_t/2/omegat/project_stats.txt
-/omega_t/2/omegat/project_save.tmx.*.bak
-/omega_t/2/omegat/last_entry.properties
-
-/omega_t/3/omegat/project_stats.txt
-/omega_t/3/omegat/project_save.tmx.*.bak
-/omega_t/3/omegat/last_entry.properties
-
-/omega_t/4/omegat/project_stats.txt
-/omega_t/4/omegat/project_save.tmx.*.bak
-/omega_t/4/omegat/last_entry.properties
-
-/omega_t/5/omegat/project_stats.txt
-/omega_t/5/omegat/project_save.tmx.*.bak
-/omega_t/5/omegat/last_entry.properties
+/omegat/omegat/project_stats.txt
+/omegat/omegat/project_save.tmx.*.bak
+/omegat/omegat/last_entry.properties
 
 /po2tomi_converter/bin
 /po2tomi_converter/obj
