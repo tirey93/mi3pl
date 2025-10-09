@@ -37945,22 +37945,22 @@ msgstr "Biegną wprost na mnie!"
 
 msgctxt "STPS313"
 msgid "Insert CD #44 for Live-Action Video. \n Press Enter to Continue."
-msgstr "Insert CD #44 for Live-Action Video. n Press Enter to Continue."
+msgstr "Włóż płytę nr 44, aby obejrzeć przerywnik filmowy."
 
 
 msgctxt "STPS314"
 msgid "Insert CD #73 for Live-Action Video. \n Press Enter to Continue."
-msgstr "Insert CD #73 for Live-Action Video. n Press Enter to Continue."
+msgstr "Włóż płytę nr 73, aby obejrzeć przerywnik filmowy."
 
 
 msgctxt "STPS315"
 msgid "Live-Action Video Requires 256 MB System RAM. \n Press Enter to Continue."
-msgstr "Live-Action Video Requires 256 MB System RAM. n Press Enter to Continue."
+msgstr "Przerywnik filmowy wymaga 256 MB pamięci RAM."
 
 
 msgctxt "STPS316"
 msgid "This is clever satire. Do not call Technical Support. \n Press Enter to Continue."
-msgstr "This is clever satire. Do not call Technical Support. n Press Enter to Continue."
+msgstr "To tylko błyskotliwa satyra. Nie kontaktuj się ze wsparciem technicznym."
 
 
 msgctxt "STGT317"
@@ -40625,7 +40625,7 @@ msgstr "W kieszeni noszę małpkę, co kradnie złoto me. Choć ma spojrzenie ś
 
 msgctxt "VDGT408"
 msgid "Once my old man spoke to good King TritonAnd asked, `Why all this senseless fightin'?``Why can't we men express emotion?`And now I've got a friend in..."
-msgstr "Once my old man spoke to good King Triton And asked, `Why all this senseless fightin'?` `Why can't we men express emotion?` And now I've got a friend in..."
+msgstr "Rzekł człek do Trytona starego: Po cóż walczymy, drogi kolego? Gdzie się podziały nasze uczucia? Od tamtej pory byli jak bracia..."
 
 
 msgctxt "VDGT412"
