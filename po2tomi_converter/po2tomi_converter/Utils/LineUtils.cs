@@ -8,7 +8,7 @@ namespace po2tomi_converter.Utils
     {
         public static IEnumerable<Line> LoadLines(string fileLocation)
         {
-            string fileEn = File.ReadAllText(fileLocation, Encoding.GetEncoding("windows-1250"));
+            string fileEn = File.ReadAllText(fileLocation);
             string[] linesEn = fileEn.Split("\r\n");
             var listEn = linesEn.Select(x => new Line(x)).Where(x => x.Markup != null);
 

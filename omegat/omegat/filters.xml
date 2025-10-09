@@ -155,4 +155,27 @@
     <filter className="org.omegat.filters3.xml.typo3.Typo3Filter" enabled="true">
         <files sourceFilenameMask="*.xml" targetFilenamePattern="${filename}"/>
     </filter>
+    <filter className="org.omegat.filters4.xml.xliff.Xliff2Filter" enabled="true">
+        <files sourceFilenameMask="*.xlf" targetFilenamePattern="${filename}"/>
+        <files sourceFilenameMask="*.xliff" targetFilenamePattern="${filename}"/>
+    </filter>
+    <filter className="org.omegat.filters4.xml.xliff.SdlProject" enabled="true">
+        <files sourceFilenameMask="*.sdlppx" targetFilenamePattern="${filename}"/>
+    </filter>
+    <filter className="org.omegat.filters4.xml.xliff.Xliff1Filter" enabled="true">
+        <files sourceFilenameMask="*.xlf" targetFilenamePattern="${filename}"/>
+        <files sourceFilenameMask="*.xliff" targetFilenamePattern="${filename}"/>
+    </filter>
+    <filter className="org.omegat.filters4.xml.xliff.SdlXliff" enabled="true">
+        <files sourceFilenameMask="*.sdlxliff" targetFilenamePattern="${filename}"/>
+    </filter>
+    <filter className="org.omegat.filters2.text.mozftl.MozillaFTLFilter" enabled="true">
+        <files sourceFilenameMask="*.ftl" targetFilenamePattern="${filename}" sourceEncoding="UTF-8" targetEncoding="UTF-8"/>
+    </filter>
+    <filter className="org.omegat.filters4.xml.openxml.MsOfficeFileFilter" enabled="true">
+        <files sourceFilenameMask="*.doc?" targetFilenamePattern="${filename}"/>
+        <files sourceFilenameMask="*.dotx" targetFilenamePattern="${filename}"/>
+        <files sourceFilenameMask="*.ppt?" targetFilenamePattern="${filename}"/>
+        <files sourceFilenameMask="*.vsdx" targetFilenamePattern="${filename}"/>
+    </filter>
 </filters>
